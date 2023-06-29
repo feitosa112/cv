@@ -1,0 +1,232 @@
+body{
+    background-image:url('slike/heaven-5114501_1920.jpg');
+    color:brown;
+}
+.wrapp{
+    width: 1000px;
+    height: 600px;
+    margin: 100px auto;
+    border: 1px solid rgb(236, 229, 229);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.current{
+    width: 90%;
+    height: 70%;
+    border: 3px solid black;
+    margin: 10px;
+    border-radius: 30px;
+}.second{
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+    border: 1px solid red;
+}
+#wrapp1{
+    width: 90%;
+    height: 70%;
+    margin: 60px auto;
+}
+#vrijeme{
+    border-radius: 100%;
+    height: 70px;
+    text-align: center;
+    color: white;
+    font-weight: bold ;
+    background-image: url('slike/sss.jpg');
+    font-size: 17px;
+    
+    
+    
+    }
+.naslov{
+    height: 10%;
+    width: 100%;
+   /* background-color: rgb(122, 122, 167); */
+   display: flex;
+   justify-content: space-between;
+}
+.ime{
+    color: white;
+display: flex;
+letter-spacing: 10px;
+margin-left:400px;
+border-radius: 5%;
+text-decoration: overline;
+/* text-decoration: underline; */
+/* background-image: url('slike/slika.jpeg'); */
+animation: mymove 10s forwards;
+  animation-timing-function: linear;
+  position: relative;
+}@keyframes mymove {
+    from {left: -300px;}
+    to {left: 0px;}
+  }
+@keyframes slidein {
+    0%{
+    margin-left: 10%;
+    width: 80%; 
+    font-size:28px;
+  }
+  
+  
+  100% {
+    margin-left: 12%;
+    width: 80%;
+    font-size:28px;
+  
+}
+}input[type=text]{
+    color:red ;
+    background-color: rgb(34, 31, 31);
+}.lista:hover{
+    animation: slidein 0.5s ease-in-out alternate infinite;
+    
+    cursor: pointer;
+}
+.lista{
+    color: aliceblue;
+}
+#pocetna1{
+    height: 100%;
+    width: 100%;
+    background-image: url('slike/book.jpg');
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-indent: 50px;
+    text-align: justify;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+.lijevi{
+    width:32%;
+    height: 95%;
+    margin: 10px;
+    border: 1px solid gray;
+    display: flex;
+    
+    flex-direction: column;
+    background-image: url('slike/paper-68833_960_720.jpg');
+    /* transition-property: background;
+    transition-duration: 2s; */
+}
+.lijevi:hover{
+    
+    color:black
+}.srednji{
+    width:32%;
+    height: 95%;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-image: url('slike/candle-1646765_960_720.jpg');
+    color: black;
+    
+    
+    
+}.desni{
+    width:32%;
+    height: 95%;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-image: url('slike/paper-68833_960_720.jpg');
+}
+.info  {
+    height: 20%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}p{
+    margin:30px 45px 20px;
+    font-weight: bold;
+}.fb{
+    margin-left: 90px;
+}.ikona{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120px; 
+    color: blue;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:600px)
+{
+    
+   
+    .naslov{
+        
+       width: 90%;
+       height: 10%;
+    }
+    .ime{
+        margin-left: 25px;
+    }
+    .wrapp{
+        height: 90%;
+        width: 80%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    body{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }.lijevi{
+        height: 30%;
+        width: 90%;
+
+    }.srednji{
+        height: 30%;
+        width: 90%;
+    }.desni{
+        height: 30%;
+        width: 90%;
+    }
+}
+#uvod{
+    text-indent: 50px;
+    text-align: justify;
+    font-size: 17px;
+    color: black;
+    display: none;
+}#opsirnije{
+    display: none;
+}#g{
+    height: 30%;
+    
+}#uvod2{
+    text-indent: 50px;
+    text-align: justify;
+    font-size: 17px;
+    color: black;
+    display: none;
+}
+#d{
+    height: 30%;
+    
+}
+
+.lista{
+    font-size: 15px;
+   
+}
